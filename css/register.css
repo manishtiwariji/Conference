@@ -1,0 +1,154 @@
+body {
+  font-family: Arial, sans-serif; /* Setting default font family */
+  margin: 0; /* Removing default margin */
+  padding: 0; /* Removing default padding */
+  background-color: #1f1f1f; /* Setting background color */
+  color: #fff; /* Setting text color */
+}
+
+/* Navigation Bar */
+.navbar {
+  display: flex; /* Displaying navbar items in a flex container */
+  justify-content: space-between; /* Aligning items with space between */
+  align-items: center; /* Aligning items vertically */
+  background-color: #333; /* Setting navbar background color */
+  padding: 10px; /* Adding padding inside navbar */
+}
+
+.left-nav h1 {
+  margin: 0; /* Removing margin from heading */
+}
+
+.right-nav a {
+  color: #fff; /* Setting navbar link color */
+  text-decoration: none; /* Removing underline from navbar links */
+  margin-left: 20px; /* Adding space between navbar links */
+  transition: color 0.3s ease-in-out; /* Adding transition effect to navbar links */
+  border: 2px solid transparent; /* Adding border to navbar links */
+  padding: 5px 10px; /* Adding padding inside navbar links */
+  border-radius: 5px; /* Adding rounded corners to navbar links */
+}
+
+.right-nav a:hover {
+  color: #ffcc00; /* Changing color of navbar links on hover */
+  border-color: #ffcc00; /* Changing border color of navbar links on hover */
+}
+
+/* Main Section */
+.main-section {
+  display: flex; /* Displaying main section items in a flex container */
+  justify-content: center; /* Aligning items horizontally */
+  align-items: center; /* Aligning items vertically */
+  padding: 20px; /* Adding padding inside main section */
+  padding-top: 100px; /* Adding top padding */
+}
+
+/* Register Page Styles */
+.register-section {
+  margin-top: 10px; /* Adding top margin */
+}
+
+.register-section h1 {
+  color:  #ffcc00; /* Setting heading color */
+  padding-left: 400px; /* Adding left padding */
+}
+
+.register-section p {
+  margin-bottom: 20px; /* Adding bottom margin */
+}
+
+/* Register Form Section */
+.register-form {
+  display: grid; /* Displaying register form items in a grid container */
+  grid-gap: 15px; /* Adding gap between grid items */
+  margin-top: 100px; /* Adding top margin */
+  margin-bottom: 100px; /* Adding bottom margin */
+  border: 5px solid #ffcc00; /* Adding border to register form */
+  padding: 50px; /* Adding padding inside register form */
+  background-color: rgba(255, 255, 255, 0.1); /* Setting semi-transparent background color */
+  border-radius: 10px; /* Adding rounded corners to register form */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Adding shadow effect to register form */
+}
+
+.register-form label {
+  color: #fff; /* Setting label color */
+  font-weight: bold; /* Making label text bold */
+}
+
+.register-form input,
+.register-form select {
+  padding: 10px; /* Adding padding inside input and select fields */
+  border: 1px solid #ffcc00; /* Adding border to input and select fields */
+  border-radius: 5px; /* Adding rounded corners to input and select fields */
+  width: calc(100% - 22px); /* Setting width of input and select fields */
+  background-color: rgba(255, 255, 255, 0.1); /* Setting semi-transparent background color */
+  color: #fff; /* Setting text color */
+}
+
+.register-form input:focus,
+.register-form select:focus {
+  outline: none; /* Removing focus outline */
+  border-color: #ffcc00; /* Changing border color on focus */
+}
+
+.register-form textarea {
+  padding: 10px; /* Adding padding inside textarea */
+  border: 1px solid #ffcc00; /* Adding border to textarea */
+  border-radius: 5px; /* Adding rounded corners to textarea */
+  width: calc(100% - 22px); /* Setting width of textarea */
+  background-color: rgba(255, 255, 255, 0.1); /* Setting semi-transparent background color */
+  color: #fff; /* Setting text color */
+}
+
+.register-form textarea:focus {
+  outline: none; /* Removing focus outline */
+  border-color: #ffcc00; /* Changing border color on focus */
+}
+
+.register-form button {
+  padding: 12px 24px; /* Adding padding inside button */
+  background-color: #ffcc00; /* Setting button background color */
+  color: #1f1f1f; /* Setting button text color */
+  border: none; /* Removing button border */
+  border-radius: 5px; /* Adding rounded corners to button */
+  cursor: pointer; /* Changing cursor to pointer */
+  transition: background-color 0.3s; /* Adding transition effect to button background color */
+}
+
+.register-form button:hover {
+  background-color: #ffa500; /* Changing button background color on hover */
+}
+
+/* Footer */
+footer {
+  position: fixed; /* Fixing footer at the bottom */
+  bottom: 0; /* Positioning footer at the bottom */
+  left: 0; /* Aligning footer to the left */
+  background-color: #333; /* Setting footer background color */
+  color: white; /* Setting footer text color */
+  padding: 10px; /* Adding padding inside footer */
+  width: 100%; /* Setting footer width */
+  display: flex; /* Displaying footer items in a flex container */
+  justify-content: space-between; /* Aligning items with space between */
+  align-items: center; /* Aligning items vertically */
+}
+
+.left-footer {
+  margin: 0; /* Removing margin */
+}
+
+.right-footer a {
+  color: #fff; /* Setting footer link color */
+  text-decoration: none; /* Removing underline from footer links */
+  margin-left: 20px; /* Adding space between footer links */
+  margin-right: 20px; /* Adding space between footer links */
+  transition: color 0.3s ease-in-out; /* Adding transition effect to footer links */
+  border: 2px solid transparent; /* Adding border to footer links */
+  padding: 5px 10px; /* Adding padding inside footer links */
+  border-radius: 5px; /* Adding rounded corners to footer links */
+}
+
+.right-footer a:hover {
+  color: #ffcc00; /* Changing color of footer links on hover */
+  border-color: #ffcc00; /* Changing border color of footer links on hover */
+}

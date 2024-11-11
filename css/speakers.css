@@ -1,0 +1,114 @@
+/* Reset and General Styles */
+body {
+  font-family: 'Arial', sans-serif; /* Setting default font family */
+  margin: 0; /* Removing default margin */
+  padding: 0; /* Removing default padding */
+  background-color: #1f1f1f; /* Setting background color */
+  color: #fff; /* Setting text color */
+}
+
+/* Navigation Bar */
+.navbar {
+  display: flex; /* Displaying navbar items in a flex container */
+  justify-content: space-between; /* Aligning items with space between */
+  align-items: center; /* Aligning items vertically */
+  background-color: #333; /* Setting navbar background color */
+  padding: 10px; /* Adding padding inside navbar */
+}
+
+.left-nav h1 {
+  margin: 0; /* Removing margin from heading */
+}
+
+.right-nav a {
+  color: #fff; /* Setting navbar link color */
+  text-decoration: none; /* Removing underline from navbar links */
+  margin-left: 20px; /* Adding space between navbar links */
+  transition: color 0.3s ease-in-out; /* Adding transition effect to navbar links */
+  border: 2px solid transparent; /* Adding border to navbar links */
+  padding: 5px 10px; /* Adding padding inside navbar links */
+  border-radius: 5px; /* Adding rounded corners to navbar links */
+}
+
+.right-nav a:hover {
+  color: #ffcc00; /* Changing color of navbar links on hover */
+  border-color: #ffcc00; /* Changing border color of navbar links on hover */
+}
+
+/* Main Section */
+.main-section {
+  padding: 20px; /* Adding padding inside main section */
+  display: flex; /* Displaying main section items in a flex container */
+  flex-direction: column; /* Setting flex direction to column */
+  align-items: center; /* Aligning items horizontally */
+  text-align: center; /* Aligning text to the center */
+  margin-top: 100px; /* Adding top margin */
+}
+
+.speaker-section {
+  display: flex; /* Displaying speaker section items in a flex container */
+  justify-content: center; /* Aligning items horizontally */
+  align-items: flex-start; /* Aligning items vertically */
+  width: 100%; /* Setting width to 100% */
+  margin-bottom: 20px; /* Adding bottom margin */
+  margin-top: 150px; /* Adding top margin */
+}
+
+.speaker-info {
+  display: flex; /* Displaying speaker info items in a flex container */
+  justify-content: flex-end; /* Aligning items to the right */
+  align-items: flex-start; /* Aligning items vertically */
+  width: 100%; /* Setting width to 100% */
+}
+
+.speaker-details {
+  max-width: 300px; /* Setting maximum width */
+}
+
+.speaker-image img {
+  max-width: 300px; /* Setting maximum width for speaker image */
+  height: auto; /* Setting height to auto to maintain aspect ratio */
+}
+
+.text-section {
+  max-width: 300px; /* Setting maximum width */
+  text-align: left; /* Aligning text to the left */
+}
+
+h1, h2, h3 {
+  color: #ffcc00; /* Setting heading color */
+}
+
+/* Footer */
+footer {
+  position: fixed; /* Fixing footer at the bottom */
+  bottom: 0; /* Positioning footer at the bottom */
+  left: 0; /* Aligning footer to the left */
+  background-color: #333; /* Setting footer background color */
+  color: white; /* Setting footer text color */
+  padding: 10px; /* Adding padding inside footer */
+  width: 100%; /* Setting footer width */
+  display: flex; /* Displaying footer items in a flex container */
+  justify-content: space-between; /* Aligning items with space between */
+  align-items: center; /* Aligning items vertically */
+}
+
+.footer-left {
+  margin: 0; /* Removing margin */
+}
+
+.footer-right a {
+  color: #fff; /* Setting footer link color */
+  text-decoration: none; /* Removing underline from footer links */
+  margin-left: 20px; /* Adding space between footer links */
+  margin-right: 20px; /* Adding space between footer links */
+  transition: color 0.3s ease-in-out; /* Adding transition effect to footer links */
+  border: 2px solid transparent; /* Adding border to footer links */
+  padding: 5px 10px; /* Adding padding inside footer links */
+  border-radius: 5px; /* Adding rounded corners to footer links */
+}
+
+.footer-right a:hover {
+  color: #ffcc00; /* Changing color of footer links on hover */
+  border-color: #ffcc00; /* Changing border color of footer links on hover */
+}
